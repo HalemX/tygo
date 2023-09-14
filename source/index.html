@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tygo</title>
+    <!-- Normalize.css makes browsers render all elements more consistently -->
+    <link rel="stylesheet" href="../vendor/normalize.css" />
+    <!-- Bootstrap Min File -->
+    <link rel="stylesheet" href="../vendor/bootstrap/bootstrap.min.css" />
+    <!-- Fontawesome Library -->
+    <link rel="stylesheet" href="../vendor/fontawesome/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+    />
+    <!-- Main CSS  Style -->
+    <link rel="stylesheet" href="../css/homepage/homepage.css" />
+  </head>
+
+  <body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg bg-red mt-4">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../imgs/logo.svg" alt="" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item ms-lg-4">
+              <a
+                class="nav-link p-lg-0 active"
+                aria-current="page"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item ms-lg-4">
+              <a class="nav-link p-lg-0" href="./pactage.html">Packages</a>
+            </li>
+            <li class="nav-item ms-lg-4">
+              <a class="nav-link p-lg-0" href="./ourservices.html"
+                >Our services</a
+              >
+            </li>
+            <li class="nav-item ms-lg-4">
+              <a class="nav-link p-lg-0" href="./aboutus.html">About us</a>
+            </li>
+            <li class="nav-item ms-lg-4">
+              <a class="nav-link p-lg-0" href="./blogs.html">Blog</a>
+            </li>
+            <li class="nav-item ms-lg-4">
+              <a class="nav-link p-lg-0" href="./join.html">Join</a>
+            </li>
+          </ul>
+
+          <form class="d-flex align-items-center">
+            <input
+              class="darkmode-switcher"
+              type="checkbox"
+              id="darkmode-toggle"
+            />
+            <label
+              class="darkmode-switcher-label position-relative ms-lg-5"
+              for="darkmode-toggle"
+            ></label>
+
+            <p class="mb-0 ms-4">العربية</p>
+
+            <button
+              class="btn rounded-pill text-light px-3 login ms-3"
+              type="submit"
+            >
+              <i class="fa-regular fa-user pe-1"></i>
+              Log in
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Landing Section -->
+    <div class="landing text-center pt-5 pb-5 position-relative mb-5">
+      <div class="imgs-before">
+        <div class="before-one position-absolute">
+          <img class="img-fluid" src="../imgs/landing-03.png" alt="" />
+        </div>
+        <div class="before-two position-absolute">
+          <img class="img-fluid" src="../imgs/landing-04.png" alt="" />
+        </div>
+      </div>
+
+      <div class="container position-relative">
+        <div class="imgs-after">
+          <div class="after-one position-absolute">
+            <img class="img-fluid" src="../imgs/landing-05.png" alt="" />
+          </div>
+          <div class="after-two position-absolute">
+            <img class="img-fluid" src="../imgs/landing-06.png" alt="" />
+          </div>
+          <div class="after-three position-absolute">
+            <img class="img-fluid" src="../imgs/landing-07.png" alt="" />
+          </div>
+        </div>
+
+        <div class="heading-of-landing-sec mb-5">
+          <h1 class="title-of-heading fw-bold">Stay connected</h1>
+          <p class="description-of-heading">
+            Explore, Choose all communication services you need
+          </p>
+        </div>
+
+        <div class="image-box d-flex align-items-center justify-content-center">
+          <img class="special img-fluid" src="../imgs/landin-01.png" alt="" />
+          <img class="img-fluid" src="../imgs/landing-02.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End Landing Section -->
+
+    <!-- Start Tygo App -->
+    <div class="app text-center p-5 pb-3">
+      <div class="container">
+        <div class="heading-of-sections mb-5">
+          <h1 class="title fw-bold mb-3">Why Tygo app?</h1>
+          <p class="description fs-5">
+            With Tygo, you'll get all you need to know about communication
+            services
+          </p>
+        </div>
+
+        <div class="row app-boxes">
+          <div class="col-lg-4 col-md-6 app-box text-center text-md-end">
+            <div class="content-box mb-5">
+              <div
+                class="yellow rounded image-box ms-auto mb-3 d-flex align-items-center justify-content-center"
+              >
+                <img src="../imgs/app-01.png" alt="" />
+              </div>
+              <div class="info">
+                <h4 class="fw-bold">Issuing ESIM and SIM</h4>
+                <p class="w-75 ms-auto">
+                  You can get in short steps sim a ESIM allows you to activate a
+                  cellular planfrom carrier without having to use a physical
+                  nano-SIM
+                </p>
+              </div>
+            </div>
+
+            <div class="content-box mb-5">
+              <div
+                class="purple rounded image-box ms-auto mb-3 d-flex align-items-center justify-content-center"
+              >
+                <img src="../imgs/app-02.png" alt="" />
+              </div>
+              <div class="info">
+                <h4 class="fw-bold">Browsing plans</h4>
+                <p class="w-75 ms-auto">
+                  you can explore all cellular plans from communication
+                  companies in one place
+                </p>
+              </div>
+            </div>
+
+            <div class="content-box">
+              <div
+                class="green rounded image-box ms-auto mb-3 d-flex align-items-center justify-content-center"
+              >
+                <img src="../imgs/app-03.png" alt="" />
+              </div>
+              <div class="info">
+                <h4 class="fw-bold">manage your usage</h4>
+                <p class="w-75 ms-auto">
+                  Analyse how you’re using your usages and manage it in your
+                  stable way.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 app-box">
+            <img class="img-fluid" src="../imgs/phone.png" alt="" />
+          </div>
+
+          <div class="col-lg-4 col-md-6 app-box text-center text-md-start">
+            <div class="content-box mb-5">
+              <div
+                class="rounded green image-box me-md-auto mb-3 d-flex align-items-center justify-content-center"
+              >
+                <img src="../imgs/app-04.png" alt="" />
+              </div>
+              <div class="info">
+                <h4 class="fw-bold">Comparing</h4>
+                <p class="w-75 me-auto">
+                  You can compare all telecom companies' plans to easily choose
+                  the one that suits you best
+                </p>
+              </div>
+            </div>
+
+            <div class="content-box mb-5">
+              <div
+                class="rounded purple-dark image-box me-auto mb-3 d-flex align-items-center justify-content-center"
+              >
+                <img src="../imgs/app-03.png" alt="" />
+              </div>
+              <div class="info">
+                <h4 class="fw-bold">Preview details</h4>
+                <p class="w-75 me-auto">
+                  You can get in short steps sim a ESIM allows you to activate a
+                  Analyse how you’re using your usages and manage it in your
+                  stable way.
+                </p>
+              </div>
+            </div>
+
+            <div class="content-box">
+              <div
+                class="rounded pink image-box me-auto mb-3 d-flex align-items-center justify-content-center"
+              >
+                <img src="../imgs/app-001.png" alt="" />
+              </div>
+              <div class="info">
+                <h4 class="fw-bold">pre-paid cards</h4>
+                <p class="w-75 me-auto">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bottom-sec-button col-lg-6 d-flex align-items-center justify-content-center rounded-pill px-4 py-1 mt-3"
+          >
+            <a class="url-btn btn fs-5" href="#">our services </a>
+            <i class="fa-solid fa-arrow-right fw-bold"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Tygo App -->
+
+    <!-- Start Control Communication -->
+    <div class="communication text-center pb-5">
+      <div class="container rounded-4 pt-5 pb-5 position-relative">
+        <div class="imgs-after mb-5 pb-5">
+          <div class="after-one position-absolute">
+            <img class="img-fluid" src="../imgs/commuincation-01.png" alt="" />
+          </div>
+          <div class="after-two position-absolute">
+            <img class="img-fluid" src="../imgs/communication-02.png" alt="" />
+          </div>
+        </div>
+
+        <div class="heading-communication-sec mb-5 mt-5">
+          <h1 class="title-communication text-light fw-bold">
+            Take control of your communication
+          </h1>
+
+          <div
+            class="button-communication text-center rounded-pill px-4 py-2 m-auto mt-5"
+          >
+            <a class="btn fs-4 text-light fw-bold" href="#"
+              >Join the waiting list</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Control Communication -->
+
+    <!-- Start About Us Section -->
+    <div class="about-us text-center pt-5 pb-5">
+      <div class="container position-relative">
+        <div class="img-after position-absolute">
+          <img class="img-fluid" src="../imgs/aboutsec-04.png" alt="" />
+        </div>
+
+        <div class="row about-us-boxes">
+          <div class="col-lg-6 about-us-box mb-4">
+            <div class="image-box position-relative">
+              <img
+                class="content-img img-fluid"
+                src="../imgs/aboutsec-01.png"
+                alt=""
+              />
+
+              <img
+                class="overlay img-fluid position-absolute"
+                src="../imgs/aboutsec-02.png"
+                alt=""
+              />
+
+              <div class="after-img position-absolute">
+                <img class="img-fluid" src="../imgs/aboutsec-03.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 about-us-box">
+            <div class="heading-of-sections pt-xl-5 w-75 mb-5 text-md-start">
+              <h1 class="title fw-bold mb-5 text-black">
+                We offer you a unique experience for a high-quality
+                <span class="pink">digital life</span>
+              </h1>
+              <p class="description text-black mb-5 fs-5">
+                We allow you to be connected while we provide you with
+                everything you need quickly and easily
+              </p>
+
+              <div
+                class="button-about-us text-center rounded-pill m-auto m-md-0 px-5 mt-5"
+              >
+                <a class="btn fs-5 text-light fw-bold" href="#">About Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End About Us Section -->
+
+    <!-- Start Packages -->
+    <div class="package pt-5 pb-3">
+      <div class="container position-relative">
+        <div
+          class="heading-of-sections mb-5 ms-xl-4 mt-0 d-flex align-items-center justify-content-between"
+        >
+          <h1 class="title fw-bold mb-3 fs-2">Top Selected Pactages</h1>
+
+          <div class="icons me-md-5">
+            <i class="left-icon fa-solid fa-arrow-left me-3 p-3"></i>
+            <i
+              class="right-icon fa-solid fa-arrow-right rounded-circle p-3"
+            ></i>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-lg-3 col-md-6">
+            <div class="image-box p-0">
+              <img class="img-fluid" src="../imgs/package-01.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="image-box p-0">
+              <img class="img-fluid" src="../imgs/package-02.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="image-box p-0">
+              <img class="img-fluid" src="../imgs/package-03.svg" alt="" />
+            </div>
+          </div>
+          <div class="special-col col-lg-3 col-md-6 position-relative">
+            <div class="image-box p-0">
+              <img class="img-fluid" src="../imgs/package-03.svg" alt="" />
+            </div>
+
+            <div class="image-before-one position-absolute">
+              <img class="img-fluid" src="../imgs/pactage-04.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bottom-sec-button d-flex align-items-center justify-content-center rounded-pill px-4 py-1 mt-3"
+        >
+          <a class="url-btn btn fs-5" href="#">Explore all plans</a>
+          <i class="fa-solid fa-arrow-right fw-bold"></i>
+        </div>
+
+        <div class="image-before-two position-absolute">
+          <img class="img-fluid" src="../imgs/landing-03.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End Packages -->
+
+    <!-- Start Blog -->
+    <div class="blog pt-5 pb-5 position-relative text-center">
+      <div class="imgs-before">
+        <div class="before-one position-absolute">
+          <img class="img-fluid" src="../imgs/landing-07.png" alt="" />
+        </div>
+
+        <div class="before-two position-absolute">
+          <img class="img-fluid" src="../imgs/landing-04.png" alt="" />
+        </div>
+      </div>
+
+      <div class="container position-relative">
+        <div class="heading-of-sections mb-5">
+          <h1 class="title fw-bold mb-3">Blogs</h1>
+          <p class="description">
+            But I must explain to you how all this mistaken idea of denouncing
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="image-box">
+              <img class="img-fluid" src="../imgs/blog-01.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="image-box">
+              <img class="img-fluid" src="../imgs/blog-02.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="image-box">
+              <img class="img-fluid" src="../imgs/blog-03.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="imgs-after">
+          <div class="after-one position-absolute">
+            <img class="img-fluid" src="../imgs/blog-04.png" alt="" />
+          </div>
+        </div>
+
+        <div
+          class="bottom-sec-button d-flex align-items-center justify-content-center rounded-pill px-4 py-1 mt-3"
+        >
+          <a class="url-btn btn fs-5" href="./blogs.html">Explore all plans</a>
+          <i class="fa-solid fa-arrow-right fw-bold"></i>
+        </div>
+      </div>
+    </div>
+    <!-- End Blog -->
+
+    <!-- Start Our Provider -->
+    <div class="our-provider text-center pt-5 pb-5 mt-5">
+      <div class="container position-relative">
+        <div class="imgs-after">
+          <div class="after-one position-absolute">
+            <img class="img-fluid" src="../imgs/provider-05.svg" alt="" />
+          </div>
+          <div class="after-two position-absolute">
+            <img class="img-fluid" src="../imgs/provider-06.svg" alt="" />
+          </div>
+          <div class="after-three position-absolute">
+            <img class="img-fluid" src="../imgs/landing-05.png" alt="" />
+          </div>
+        </div>
+
+        <div class="heading-of-sections mb-5">
+          <h1 class="title fw-bold mb-3">Our Providers</h1>
+        </div>
+
+        <div class="row provider-boxes">
+          <div class="col-lg-2 col-md-4 col-sm-6 provider-box">
+            <div class="image-box">
+              <img
+                class="img-fluid rounded"
+                src="../imgs/provider-01.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 provider-box">
+            <div class="image-box">
+              <img class="img-fluid" src="../imgs/provider-02.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 provider-box">
+            <div class="image-box">
+              <img class="img-fluid" src="../imgs/provider-03.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 provider-box">
+            <div class="image-box">
+              <img class="img-fluid" src="../imgs/provider-04.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 provider-box">
+            <div class="image-box">
+              <img class="img-fluid" src="../imgs/provider-01.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 provider-box">
+            <div class="image-box">
+              <img class="img-fluid" src="../imgs/provider-02.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Provider -->
+
+    <!-- Start Clients Opinion -->
+    <div class="client-opinion pt-5 pb-5 position-relative">
+      <div class="client-imgs-before">
+        <div class="before-one position-absolute">
+          <img class="img-fluid" src="../imgs/client-04.png" alt="" />
+        </div>
+      </div>
+
+      <div class="container pb-5">
+        <div
+          class="heading-of-sections mb-5 ms-xl-4 mt-0 d-flex align-items-center justify-content-between"
+        >
+          <h1 class="title fw-bold mb-3 fs-2">Our Clients’ Opinions</h1>
+
+          <div class="icons me-md-5">
+            <i class="left-icon fa-solid fa-arrow-left me-3 p-3"></i>
+            <i
+              class="right-icon fa-solid fa-arrow-right rounded-circle p-3"
+            ></i>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="client-box">
+              <img class="img-fluid" src="../imgs/client01.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="client-box">
+              <img class="img-fluid" src="../imgs/client02.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="client-box">
+              <img class="img-fluid" src="../imgs/client03.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Clients Opinion -->
+
+    <!-- Start Footer -->
+    <div class="footer text-center pt-5 pb-5">
+      <div class="container pt-5">
+        <div class="row holder">
+          <div class="col-lg-4 left-box">
+            <h5 class="heading text-md-start mb-4 px-2 w-75 fw-bold">
+              Subscribe to our newsletter :
+            </h5>
+
+            <div class="input-group rounded-pill bg-white px-2 py-2 mb-5">
+              <input
+                type="email"
+                class="form-control border-0 rounded-pill"
+                placeholder="Email@yourmail.com"
+              />
+              <button class="btn rounded-pill text-light px-4">Submit</button>
+            </div>
+
+            <p class="text-md-start p-2">Terms | Privacy</p>
+          </div>
+
+          <div class="col-lg-8 right-box text-center">
+            <ul class="links list-unstyled mb-2 mt-4 mb-lg-0 d-flex">
+              <li class="ms-4">
+                <a
+                  class="nav-link p-lg-0 text-black-50 active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="ms-4">
+                <a class="nav-link p-lg-0 text-black-50" href="./aboutus.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="ms-4">
+                <a class="nav-link p-lg-0 text-black-50" href="./pactage.html"
+                  >Pactages</a
+                >
+              </li>
+              <li class="ms-4">
+                <a class="nav-link p-lg-0 text-black-50" href="./blogs.html"
+                  >Blog</a
+                >
+              </li>
+              <li class="ms-4">
+                <a
+                  class="nav-link p-lg-0 text-black-50"
+                  href="./ourservices.html"
+                  >Our Services</a
+                >
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link p-lg-0" href="./join.html">Join</a>
+              </li>
+            </ul>
+
+            <ul class="icons text-lg-end text-md-start mt-1 mt-lg-5 fs-4">
+              <span class="fs-5">Follow Us:</span>
+              <i class="fa-brands fa-facebook mt-md-5"></i>
+              <i class="fa-brands fa-instagram mt-md-5"></i>
+              <i class="fa-brands fa-linkedin mt-md-5"></i>
+              <i class="fa-brands fa-google-plus-g mt-md-5"></i>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Bootstrap min file -->
+    <script src="../vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- Fontawesome Library Make Icon As SVG -->
+    <script src="../vendor/fontawesome/all.min.js"></script>
+    <!-- Main JS Style -->
+    <script src="../js/main.js"></script>
+  </body>
+</html>

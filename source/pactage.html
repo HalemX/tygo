@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pactages</title>
+    <!-- Normalize.css makes browsers render all elements more consistently -->
+    <link rel="stylesheet" href="../vendor/normalize.css" />
+    <!-- Bootstrap Min File -->
+    <link rel="stylesheet" href="../vendor/bootstrap/bootstrap.min.css" />
+    <!-- Fontawesome Library -->
+    <link rel="stylesheet" href="../vendor/fontawesome/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+    />
+    <!-- Main CSS  Style -->
+    <link rel="stylesheet" href="../css/pactage/pactage.css" />
+  </head>
+
+  <body>
+    <div class="holder overflow-hidden">
+      <!-- Start Navbar -->
+      <nav class="navbar navbar-expand-lg bg-red mt-4">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="../imgs/logo.svg" alt="" />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item ms-lg-4">
+                <a
+                  class="nav-link p-lg-0"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link p-lg-0 active" href="./pactage.html"
+                  >Packages</a
+                >
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link p-lg-0" href="./ourservices.html"
+                  >Our services</a
+                >
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link p-lg-0" href="./aboutus.html">About us</a>
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link p-lg-0" href="./blogs.html">Blog</a>
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link p-lg-0" href="./join.html">Join</a>
+              </li>
+            </ul>
+
+            <form class="d-flex align-items-center">
+              <input
+                class="darkmode-switcher"
+                type="checkbox"
+                id="darkmode-toggle"
+              />
+              <label
+                class="darkmode-switcher-label position-relative ms-lg-5"
+                for="darkmode-toggle"
+              >
+              </label>
+
+              <p class="mb-0 ms-4">العربية</p>
+
+              <button
+                class="btn rounded-pill text-light px-3 login ms-3"
+                type="submit"
+              >
+                <i class="fa-regular fa-user pe-1"></i>
+                Log in
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+
+      <!-- Start Pactages -->
+      <div class="pactages pt-5 pb-5 text-center position-relative">
+        <div class="fixed-btn">
+          <a class="translate-btn" href="./complete_pactage.html">
+            <img class="img-fluid" src="../imgs/pactage-13.png" alt="" />
+          </a>
+        </div>
+
+        <div class="container d-flex">
+          <div class="sidebar">
+            <div class="box pb-3">
+              <div
+                class="intro d-flex align-items-center justify-content-between mb-3"
+              >
+                <h4>Price</h4>
+                <i class="fa-solid fa-chevron-down text-black-50"></i>
+              </div>
+              <ul class="ul-content list-unstyled">
+                <li class="d-flex align-items-center mb-3">
+                  <input class="mt-0" type="radio" name="" id="first" />
+                  <label class="mb-0 ms-3 text-black-50" for="first"
+                    >down to SAR 50</label
+                  >
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <input class="mt-0" type="radio" name="" id="second" />
+                  <label class="mb-0 ms-3 text-black-50" for="second"
+                    >SAR 50 –⁠ SAR 150</label
+                  >
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <input class="mt-0" type="radio" name="" id="thired" />
+                  <label class="mb-0 ms-3 text-black-50" for="thired"
+                    >SAR 150 –⁠ SAR 250</label
+                  >
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <input class="mt-0" type="radio" name="" id="fourth" />
+                  <label class="mb-0 ms-3 text-black-50" for="fourth"
+                    >SAR 250 –⁠ SAR 350</label
+                  >
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <input class="mt-0" type="radio" name="" id="five" />
+                  <label class="mb-0 ms-3 text-black-50" for="five"
+                    >SAR 350 & Above</label
+                  >
+                </li>
+              </ul>
+              <form class="form-price d-flex text-start align-items-center">
+                <input
+                  class="rounded"
+                  type="number"
+                  name=""
+                  id=""
+                  placeholder="from :"
+                />
+                <input
+                  class="rounded ms-2"
+                  type="number"
+                  name=""
+                  id=""
+                  placeholder="to :"
+                />
+                <div
+                  class="icon-form rounded-circle text-center text-light ms-2"
+                >
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </form>
+            </div>
+
+            <div class="box pb-3 mt-4">
+              <div
+                class="intro d-flex align-items-center justify-content-between mb-3"
+              >
+                <h4>Included Data (In GB)</h4>
+                <i class="fa-solid fa-chevron-down text-black-50"></i>
+              </div>
+
+              <form class="form-price d-flex text-start align-items-center">
+                <input
+                  class="rounded"
+                  type="number"
+                  name=""
+                  id=""
+                  placeholder="from :"
+                />
+                <input
+                  class="rounded ms-2"
+                  type="number"
+                  name=""
+                  id=""
+                  placeholder="to :"
+                />
+                <div
+                  class="icon-form rounded-circle text-center text-light ms-2"
+                >
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </form>
+            </div>
+
+            <div class="box pb-3 mt-4">
+              <div
+                class="intro d-flex align-items-center justify-content-between mb-3"
+              >
+                <h4>Usage Type</h4>
+                <i class="fa-solid fa-chevron-down text-black-50"></i>
+              </div>
+
+              <ul class="ul-content list-unstyled">
+                <li class="d-flex align-items-center mb-3">
+                  <input class="mt-0" type="radio" name="" id="first" />
+                  <label class="mb-0 ms-3 text-black-50" for="first"
+                    >Any
+                  </label>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <input class="mt-0" type="radio" name="" id="second" />
+                  <label class="mb-0 ms-3 text-black-50" for="second"
+                    >Business</label
+                  >
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <input class="mt-0" type="radio" name="" id="thired" />
+                  <label class="mb-0 ms-3 text-black-50" for="thired"
+                    >Personal</label
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="box pb-3 mt-4">
+              <div
+                class="intro d-flex align-items-center justify-content-between mb-3"
+              >
+                <h4>Contact</h4>
+                <i class="fa-solid fa-chevron-down text-black-50"></i>
+              </div>
+
+              <ul class="ul-content list-unstyled">
+                <li class="d-flex align-items-center mb-3">
+                  <input class="mt-0" type="radio" name="" id="first" />
+                  <label class="mb-0 ms-3 text-black-50" for="first"
+                    >Any
+                  </label>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <input class="mt-0" type="radio" name="" id="second" />
+                  <label class="mb-0 ms-3 text-black-50" for="second"
+                    >No Contract</label
+                  >
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <input class="mt-0" type="radio" name="" id="thired" />
+                  <label class="mb-0 ms-3 text-black-50" for="thired"
+                    >Contract</label
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="box noborder pb-3 mt-4">
+              <div
+                class="intro d-flex align-items-center justify-content-between mb-3"
+              >
+                <h4>Providers</h4>
+                <i class="fa-solid fa-chevron-down text-black-50"></i>
+              </div>
+
+              <ul class="ul-content list-unstyled">
+                <li class="d-flex align-items-center mb-3">
+                  <input class="mt-0" type="checkbox" name="" id="first" />
+                  <label class="mb-0 ms-3 text-black-50" for="first"
+                    >Zain
+                  </label>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <input class="mt-0" type="checkbox" name="" id="second" />
+                  <label class="mb-0 ms-3 text-black-50" for="second"
+                    >Stc</label
+                  >
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <input class="mt-0" type="checkbox" name="" id="thired" />
+                  <label class="mb-0 ms-3 text-black-50" for="thired"
+                    >Mobily</label
+                  >
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <input class="mt-0" type="checkbox" name="" id="thired" />
+                  <label class="mb-0 ms-3 text-black-50" for="thired"
+                    >Lebara</label
+                  >
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <input class="mt-0" type="checkbox" name="" id="thired" />
+                  <label class="mb-0 ms-3 text-black-50" for="thired"
+                    >Virgin</label
+                  >
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <input class="mt-0" type="checkbox" name="" id="thired" />
+                  <label class="mb-0 ms-3 text-black-50" for="thired"
+                    >Jawwy</label
+                  >
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <input class="mt-0" type="checkbox" name="" id="thired" />
+                  <label class="mb-0 ms-3 text-black-50" for="thired"
+                    >Yaqoot</label
+                  >
+                </li>
+              </ul>
+
+              <div class="reset d-flex align-items-center mt-3">
+                <div class="icon-reset rounded-circle text-light">X</div>
+                <p class="mb-0 ms-3 fs-5">Reset filter</p>
+              </div>
+            </div>
+          </div>
+          <div class="full-content">
+            <div
+              class="heading d-flex align-items-center justify-content-between"
+            >
+              <div
+                class="semi-button d-flex align-items-center rounded-pill p-3"
+              >
+                <p class="mb-0 me-5">Recently added</p>
+                <div class="icon ms-5 tetx-center">
+                  <i class="fa-solid fa-chevron-down"></i>
+                </div>
+              </div>
+              <div class="image-box d-flex align-items-center">
+                <div class="img-first rounded-pill p-2 me-2">
+                  <img class="img-fluid" src="../imgs/pactage-01.png" alt="" />
+                </div>
+                <div class="img-second rounded-pill p-2">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="main-content mt-5 position-relative">
+              <div class="before-one position-absolute">
+                <img class="img-fluid" src="../imgs/client-04.png" alt="" />
+              </div>
+
+              <div class="before-two position-absolute">
+                <img
+                  class="img-fluid"
+                  src="../imgs/complete-blog-003.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="before-three position-absolute">
+                <img class="img-fluid" src="../imgs/landing-04.png" alt="" />
+              </div>
+
+              <div class="row">
+                <div class="col-lg-4 col-md-6 p-2">
+                  <div class="content-of-col p-4 rounded">
+                    <div class="intro d-flex align-items-center mb-4">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-02.png"
+                          alt=""
+                        />
+                      </div>
+                      <p class="mb-0 text-start ms-3">
+                        100 minutes to all <span>local networks</span>
+                      </p>
+                    </div>
+
+                    <div class="duration text-start mb-4">
+                      <p class="fs-4 mb-0">SAR 100 / month</p>
+                      <span class="text-black-50">Price Including VAT</span>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-03.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Unlimited</p>
+                        <span class="text-black-50">Internet Data</span>
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box-two rounded-circle">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-05.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">200 Min</p>
+                        <span class="text-black-50">International Calls </span>
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box-two rounded-circle">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-06.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Free</p>
+                        <span class="text-black-50"
+                          >Multi-Sim Subscription</span
+                        >
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-5">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-07.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Unlimited</p>
+                        <span class="text-black-50">Stcwifi</span>
+                      </div>
+                    </div>
+
+                    <div class="inner-footer d-flex align-items-center">
+                      <div class="image">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-08.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="image ms-3">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-09.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 p-2">
+                  <div class="content-of-col p-4 rounded">
+                    <div class="intro d-flex align-items-center mb-4">
+                      <div class="image-box-special-one rounded p-2">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-10.png"
+                          alt=""
+                        />
+                      </div>
+                      <p class="mb-0 text-start ms-3">
+                        100 minutes to all <span>local networks</span>
+                      </p>
+                    </div>
+
+                    <div class="duration text-start mb-4">
+                      <p class="fs-4 mb-0">SAR 100 / month</p>
+                      <span class="text-black-50">Price Including VAT</span>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-03.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Unlimited</p>
+                        <span class="text-black-50">Internet Data</span>
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box-two rounded-circle">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-05.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">200 Min</p>
+                        <span class="text-black-50">International Calls </span>
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box-two rounded-circle">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-06.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Free</p>
+                        <span class="text-black-50"
+                          >Multi-Sim Subscription</span
+                        >
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-5">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-07.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Unlimited</p>
+                        <span class="text-black-50">Stcwifi</span>
+                      </div>
+                    </div>
+
+                    <div class="inner-footer d-flex align-items-center">
+                      <div class="image">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-08.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="image ms-3">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-09.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 p-2">
+                  <div class="content-of-col p-4 rounded">
+                    <div class="intro d-flex align-items-center mb-4">
+                      <div class="image-box-special-two rounded">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-11.png"
+                          alt=""
+                        />
+                      </div>
+                      <p class="mb-0 text-start ms-3">
+                        100 minutes to all <span>local networks</span>
+                      </p>
+                    </div>
+
+                    <div class="duration text-start mb-4">
+                      <p class="fs-4 mb-0">SAR 100 / month</p>
+                      <span class="text-black-50">Price Including VAT</span>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-03.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Unlimited</p>
+                        <span class="text-black-50">Internet Data</span>
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box-two rounded-circle">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-05.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">200 Min</p>
+                        <span class="text-black-50">International Calls </span>
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box-two rounded-circle">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-06.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Free</p>
+                        <span class="text-black-50"
+                          >Multi-Sim Subscription</span
+                        >
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-5">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-07.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Unlimited</p>
+                        <span class="text-black-50">Stcwifi</span>
+                      </div>
+                    </div>
+
+                    <div class="inner-footer d-flex align-items-center">
+                      <div class="image">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-08.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="image ms-3">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-09.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 p-2">
+                  <div class="content-of-col p-4 rounded">
+                    <div class="intro d-flex align-items-center mb-4">
+                      <div class="image-box-special-two rounded">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-11.png"
+                          alt=""
+                        />
+                      </div>
+                      <p class="mb-0 text-start ms-3">
+                        100 minutes to all <span>local networks</span>
+                      </p>
+                    </div>
+
+                    <div class="duration text-start mb-4">
+                      <p class="fs-4 mb-0">SAR 100 / month</p>
+                      <span class="text-black-50">Price Including VAT</span>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-03.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Unlimited</p>
+                        <span class="text-black-50">Internet Data</span>
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box-two rounded-circle">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-05.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">200 Min</p>
+                        <span class="text-black-50">International Calls </span>
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box-two rounded-circle">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-06.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Free</p>
+                        <span class="text-black-50"
+                          >Multi-Sim Subscription</span
+                        >
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-5">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-07.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Unlimited</p>
+                        <span class="text-black-50">Stcwifi</span>
+                      </div>
+                    </div>
+
+                    <div class="inner-footer d-flex align-items-center">
+                      <div class="image">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-08.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="image ms-3">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-09.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 p-2">
+                  <div class="content-of-col p-4 rounded">
+                    <div class="intro d-flex align-items-center mb-4">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-12.png"
+                          alt=""
+                        />
+                      </div>
+                      <p class="mb-0 text-start ms-3">
+                        100 minutes to all <span>local networks</span>
+                      </p>
+                    </div>
+
+                    <div class="duration text-start mb-4">
+                      <p class="fs-4 mb-0">SAR 100 / month</p>
+                      <span class="text-black-50">Price Including VAT</span>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-03.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Unlimited</p>
+                        <span class="text-black-50">Internet Data</span>
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box-two rounded-circle">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-05.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">200 Min</p>
+                        <span class="text-black-50">International Calls </span>
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box-two rounded-circle">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-06.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Free</p>
+                        <span class="text-black-50"
+                          >Multi-Sim Subscription</span
+                        >
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-5">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-07.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Unlimited</p>
+                        <span class="text-black-50">Stcwifi</span>
+                      </div>
+                    </div>
+
+                    <div class="inner-footer d-flex align-items-center">
+                      <div class="image">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-08.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="image ms-3">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-09.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 p-2">
+                  <div class="content-of-col p-4 rounded">
+                    <div class="intro d-flex align-items-center mb-4">
+                      <div class="image-box-special-two rounded">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-11.png"
+                          alt=""
+                        />
+                      </div>
+                      <p class="mb-0 text-start ms-3">
+                        100 minutes to all <span>local networks</span>
+                      </p>
+                    </div>
+
+                    <div class="duration text-start mb-4">
+                      <p class="fs-4 mb-0">SAR 100 / month</p>
+                      <span class="text-black-50">Price Including VAT</span>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-03.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Unlimited</p>
+                        <span class="text-black-50">Internet Data</span>
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box-two rounded-circle">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-05.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">200 Min</p>
+                        <span class="text-black-50">International Calls </span>
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box-two rounded-circle">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-06.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Free</p>
+                        <span class="text-black-50"
+                          >Multi-Sim Subscription</span
+                        >
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-5">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-07.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Unlimited</p>
+                        <span class="text-black-50">Stcwifi</span>
+                      </div>
+                    </div>
+
+                    <div class="inner-footer d-flex align-items-center">
+                      <div class="image">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-08.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="image ms-3">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-09.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 p-2">
+                  <div class="content-of-col p-4 rounded">
+                    <div class="intro d-flex align-items-center mb-4">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-02.png"
+                          alt=""
+                        />
+                      </div>
+                      <p class="mb-0 text-start ms-3">
+                        100 minutes to all <span>local networks</span>
+                      </p>
+                    </div>
+
+                    <div class="duration text-start mb-4">
+                      <p class="fs-4 mb-0">SAR 100 / month</p>
+                      <span class="text-black-50">Price Including VAT</span>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-03.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Unlimited</p>
+                        <span class="text-black-50">Internet Data</span>
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box-two rounded-circle">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-05.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">200 Min</p>
+                        <span class="text-black-50">International Calls </span>
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box-two rounded-circle">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-06.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Free</p>
+                        <span class="text-black-50"
+                          >Multi-Sim Subscription</span
+                        >
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-5">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-07.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Unlimited</p>
+                        <span class="text-black-50">Stcwifi</span>
+                      </div>
+                    </div>
+
+                    <div class="inner-footer d-flex align-items-center">
+                      <div class="image">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-08.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="image ms-3">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-09.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 p-2">
+                  <div class="content-of-col p-4 rounded">
+                    <div class="intro d-flex align-items-center mb-4">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-12.png"
+                          alt=""
+                        />
+                      </div>
+                      <p class="mb-0 text-start ms-3">
+                        100 minutes to all <span>local networks</span>
+                      </p>
+                    </div>
+
+                    <div class="duration text-start mb-4">
+                      <p class="fs-4 mb-0">SAR 100 / month</p>
+                      <span class="text-black-50">Price Including VAT</span>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-03.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Unlimited</p>
+                        <span class="text-black-50">Internet Data</span>
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box-two rounded-circle">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-05.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">200 Min</p>
+                        <span class="text-black-50">International Calls </span>
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box-two rounded-circle">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-06.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Free</p>
+                        <span class="text-black-50"
+                          >Multi-Sim Subscription</span
+                        >
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-5">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-07.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Unlimited</p>
+                        <span class="text-black-50">Stcwifi</span>
+                      </div>
+                    </div>
+
+                    <div class="inner-footer d-flex align-items-center">
+                      <div class="image">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-08.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="image ms-3">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-09.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 p-2">
+                  <div class="content-of-col p-4 rounded">
+                    <div class="intro d-flex align-items-center mb-4">
+                      <div class="image-box-special-one rounded p-2">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-10.png"
+                          alt=""
+                        />
+                      </div>
+                      <p class="mb-0 text-start ms-3">
+                        100 minutes to all <span>local networks</span>
+                      </p>
+                    </div>
+
+                    <div class="duration text-start mb-4">
+                      <p class="fs-4 mb-0">SAR 100 / month</p>
+                      <span class="text-black-50">Price Including VAT</span>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-03.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Unlimited</p>
+                        <span class="text-black-50">Internet Data</span>
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box-two rounded-circle">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-05.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">200 Min</p>
+                        <span class="text-black-50">International Calls </span>
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-3">
+                      <div class="image-box-two rounded-circle">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-06.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Free</p>
+                        <span class="text-black-50"
+                          >Multi-Sim Subscription</span
+                        >
+                      </div>
+                    </div>
+
+                    <div class="inner-row d-flex align-items-center mb-5">
+                      <div class="image-box">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-07.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info text-start ms-3">
+                        <p class="mb-0">Unlimited</p>
+                        <span class="text-black-50">Stcwifi</span>
+                      </div>
+                    </div>
+
+                    <div class="inner-footer d-flex align-items-center">
+                      <div class="image">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-08.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="image ms-3">
+                        <img
+                          class="img-fluid"
+                          src="../imgs/pactage-09.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Pactages -->
+
+      <!-- Start Footer -->
+      <div class="footer text-center pt-5 pb-5">
+        <div class="container pt-5">
+          <div class="row holder">
+            <div class="col-lg-4 left-box">
+              <h5 class="heading text-md-start mb-4 px-2 w-75 fw-bold">
+                Subscribe to our newsletter :
+              </h5>
+
+              <div class="input-group rounded-pill bg-white px-2 py-2 mb-5">
+                <input
+                  type="email"
+                  class="form-control border-0 rounded-pill"
+                  placeholder="Email@yourmail.com"
+                />
+                <button class="btn rounded-pill text-light px-4">Submit</button>
+              </div>
+
+              <p class="text-md-start p-2">Terms | Privacy</p>
+            </div>
+
+            <div class="col-lg-8 right-box text-center">
+              <ul class="links list-unstyled mb-2 mt-4 mb-lg-0 d-flex">
+                <li class="ms-4">
+                  <a
+                    class="nav-link p-lg-0 text-black-50"
+                    aria-current="page"
+                    href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="ms-4">
+                  <a class="nav-link p-lg-0 text-black-50" href="./aboutus.html"
+                    >About Us</a
+                  >
+                </li>
+                <li class="ms-4">
+                  <a
+                    class="nav-link p-lg-0 text-black-50 active"
+                    href="./pactage.html"
+                    >Pactages</a
+                  >
+                </li>
+                <li class="ms-4">
+                  <a class="nav-link p-lg-0 text-black-50" href="./blogs.html"
+                    >Blog</a
+                  >
+                </li>
+                <li class="ms-4">
+                  <a
+                    class="nav-link p-lg-0 text-black-50"
+                    href="./ourservices.html"
+                    >Our Services</a
+                  >
+                </li>
+                <li class="nav-item ms-lg-4">
+                  <a class="nav-link p-lg-0" href="./join.html">Join</a>
+                </li>
+              </ul>
+
+              <ul class="icons text-lg-end text-md-start mt-1 mt-lg-5 fs-4">
+                <span class="fs-5">Follow Us:</span>
+                <i class="fa-brands fa-facebook mt-md-5"></i>
+                <i class="fa-brands fa-instagram mt-md-5"></i>
+                <i class="fa-brands fa-linkedin mt-md-5"></i>
+                <i class="fa-brands fa-google-plus-g mt-md-5"></i>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Footer -->
+    </div>
+
+    <!-- Bootstrap min file -->
+    <script src="../vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- Fontawesome Library Make Icon As SVG -->
+    <script src="../vendor/fontawesome/all.min.js"></script>
+    <!-- Main JS Style -->
+    <script src="../js/main.js"></script>
+  </body>
+</html>

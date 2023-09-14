@@ -1,0 +1,68 @@
+/* Start Navbar */
+.navbar {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  .navbar-toggler {
+    border: none;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .darkmode-switcher {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+  .darkmode-switcher-label {
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    &::before,
+    &::after {
+      position: absolute;
+      height: 100%;
+      text-align: center;
+      @include prefix(transition, 0.3s, webkit moz o ms);
+      top: 0;
+    }
+    &::before {
+      content: "\f185";
+      font: var(--fa-font-regular);
+      left: 0;
+      background-color: $main_color;
+      color: $basic_text_color;
+      width: 40%;
+      padding-top: 6px;
+    }
+    &::after {
+      content: "Dark";
+      right: 0;
+      background-color: rgba($main_color, 0.2);
+      color: $main_color;
+      width: 60%;
+      padding-top: 2px;
+    }
+    &.dark::after {
+      content: "\f186";
+      font: var(--fa-font-regular);
+      right: 0;
+      background-color: $basic_text_color;
+      color: $dark_color;
+      width: 40%;
+      padding-top: 6px;
+    }
+    &.dark::before {
+      content: "white";
+      left: 0;
+      background-color: #322743;
+      color: $basic_text_color;
+      width: 60%;
+      padding-top: 6px;
+      font-family: Tahoma, sans-serif;
+    }
+  }
+  .login {
+    background-color: $main_color;
+    cursor: pointer;
+  }
+}
+/* End Navbar */

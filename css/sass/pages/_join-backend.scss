@@ -1,0 +1,58 @@
+/* Start Join*/
+.join {
+  width: 100%;
+  @media #{$min_md} {
+    width: 40%;
+  }
+  .before-one {
+    left: -100px;
+  }
+  .before-two {
+    right: -300px;
+    top: 400px;
+  }
+  .before-three,
+  .before-four,
+  .before-five {
+    z-index: -999;
+  }
+  .before-three {
+    left: -800px;
+    top: -300px;
+  }
+  .before-four {
+    left: -500px;
+    bottom: -400px;
+  }
+  .before-five {
+    right: -700px;
+    top: 200px;
+  }
+  .first-input {
+    .input-icons {
+      box-shadow: 10px 10px 10px #efeded;
+      svg {
+        font-size: 22px;
+      }
+      input,
+      select {
+        background: none;
+        border: none;
+        &:focus {
+          outline: none;
+          box-shadow: none;
+        }
+      }
+    }
+    .reason {
+      .reason-content {
+        box-shadow: 10px 10px 10px #efeded;
+      }
+    }
+  }
+  .btn {
+    background-color: $main_color !important;
+    color: $basic_text_color;
+  }
+}
+/* End Join*/

@@ -1,0 +1,316 @@
+/* Start Landing Sec */
+.landing {
+  .imgs-before {
+    .before-one,
+    .before-two {
+      z-index: -999;
+      top: -250px;
+      @media #{$max_sm} {
+        display: none;
+      }
+    }
+    .before-one {
+      left: -400px;
+    }
+    .before-two {
+      left: 100px;
+    }
+  }
+  .imgs-after {
+    .after-one,
+    .after-two {
+      top: 50%;
+      @include prefix(transform, translateY(-50%), webkit moz o);
+      z-index: -999;
+      @media #{$max_sm} {
+        display: none;
+      }
+    }
+    .after-one {
+      img {
+        width: 60px;
+      }
+    }
+    .after-two {
+      right: 0;
+      img {
+        width: 200px;
+      }
+    }
+    .after-three {
+      right: 280px;
+      bottom: -90px;
+      @media (max-width: 992px) {
+        display: none;
+      }
+      img {
+        width: 240px;
+      }
+    }
+  }
+  .image-box {
+    @media #{$max_sm} {
+      flex-direction: column;
+    }
+    .special {
+      margin-right: -60px;
+      @media #{$max_sm} {
+        margin: 0 0 -60px;
+      }
+    }
+    img {
+      width: 250px;
+      cursor: pointer;
+    }
+  }
+}
+/* End Landing Sec */
+
+/* Start tygo App */
+.app {
+  .image-box {
+    width: 70px;
+    height: 70px;
+    @media #{$max_md} {
+      margin: auto;
+    }
+  }
+  .yellow {
+    background-color: $yellow;
+  }
+  .purple {
+    background-color: $purple;
+  }
+  .green {
+    background-color: $main_color;
+  }
+  .pink {
+    background-color: $pink;
+  }
+  .purple-dark {
+    background-color: $purple_dark;
+  }
+  p {
+    @media #{$max_md} {
+      margin: auto;
+    }
+  }
+  h4 {
+    @media #{$max_md} {
+      text-align: center;
+    }
+  }
+}
+/* End tygo App */
+
+/* Start Control Communication*/
+.communication {
+  .container {
+    background-color: $communication_sec;
+  }
+  .imgs-after {
+    @media #{$max_md} {
+      display: none;
+    }
+    .after-one {
+      left: 160px;
+      @include center;
+      img {
+        width: 35px;
+      }
+    }
+    .after-two {
+      bottom: 30px;
+      right: 35px;
+      img {
+        width: 300px;
+      }
+    }
+  }
+  .heading-communication-sec {
+    width: 500px;
+    margin: auto;
+    .title-communication {
+      font-size: 50px;
+    }
+    @media #{$max_xs} {
+      width: 250px;
+      margin: auto;
+      .title-communication {
+        font-size: 25px;
+      }
+    }
+  }
+  .button-communication {
+    cursor: pointer;
+    width: fit-content;
+    background-color: $main_color;
+    .btn {
+      @media #{$max_xs} {
+        font-size: 16px !important;
+      }
+    }
+  }
+}
+/* End Control Communication*/
+
+/* Start About Us Section*/
+.about-us {
+  .img-after {
+    z-index: -999;
+    top: -235px;
+    left: 220px;
+  }
+  .about-us-box {
+    .pink {
+      color: $pink;
+    }
+    .button-about-us {
+      background-color: $pink;
+      width: fit-content;
+    }
+    .image-box {
+      .overlay {
+        left: 0;
+      }
+      .after-img {
+        bottom: 30px;
+        right: 47px;
+        @media #{$max_xs} {
+          display: none;
+        }
+        img {
+          width: 100px;
+        }
+      }
+    }
+  }
+}
+/* End About Us Section*/
+
+/* Start Packages */
+.package,
+.client-opinion {
+  .heading-of-sections {
+    width: 100% !important;
+    margin-right: 10px;
+    @media #{$max_sm} {
+      flex-direction: column;
+      justify-content: center !important;
+      margin: 0 !important;
+    }
+    .icons {
+      svg {
+        cursor: pointer;
+      }
+    }
+    .right-icon {
+      border: 1px solid $border_color;
+    }
+  }
+  .special-col {
+    .image-before-one {
+      bottom: -60px;
+      right: -50px;
+      z-index: -99;
+      img {
+        width: 150px !important;
+        @media (max-width: 1286px) {
+          display: none;
+        }
+      }
+    }
+  }
+  .image-before-two {
+    top: 250px;
+    right: -95px;
+    z-index: -99;
+    img {
+      width: 500px;
+      @media (max-width: 1286px) {
+        display: none;
+      }
+    }
+  }
+}
+/* End Packages */
+
+/* Start Blog*/
+.blog {
+  .imgs-before {
+    .before-two {
+      z-index: -999;
+      top: 0px;
+      left: -400px;
+      @media #{$max_sm} {
+        display: none;
+      }
+    }
+    .before-one {
+      @media #{$max_md} {
+        display: none;
+      }
+    }
+  }
+  .imgs-after {
+    .after-one {
+      left: 400px;
+      display: none;
+      @media #{$min_lg} {
+        display: block;
+      }
+      img {
+        width: 50px;
+      }
+    }
+  }
+}
+/* End Blog*/
+
+/* Start Provider*/
+.our-provider {
+  .imgs-after {
+    .after-one,
+    .after-two,
+    .after-three {
+      top: -120px;
+      @media #{$max_md} {
+        display: none;
+      }
+    }
+    .after-one {
+      left: 100px;
+      img {
+        width: 60px;
+      }
+    }
+    .after-two {
+      right: 100px;
+      img {
+        width: 30px;
+      }
+    }
+    .after-three {
+      right: 250px;
+      img {
+        width: 35px;
+      }
+    }
+  }
+}
+/* End Provider*/
+
+/* Start Client Opinion */
+.client-opinion {
+  .client-imgs-before {
+    .before-one {
+      right: 0;
+      top: 100px;
+      z-index: -99;
+      img {
+        width: 500px;
+      }
+    }
+  }
+}
+/* End Client Opinion */

@@ -1,0 +1,52 @@
+/* Start Heading */
+.heading-of-landing-sec {
+  width: 800px;
+  height: 200px;
+  margin: 60px auto 0;
+
+  @media #{$max_md} {
+    width: 500px;
+  }
+  @media #{$max_xs} {
+    width: 300px;
+  }
+  .title-of-heading {
+    color: $h_dark_color;
+    font-size: 86px;
+    @media #{$max_md} {
+      font-size: 60px;
+    }
+    @media #{$max_xs} {
+      font-size: 40px;
+    }
+  }
+  .description-of-heading {
+    width: 80%;
+    margin: auto;
+    font-size: 38px !important;
+    color: $p_light_color;
+    @media #{$max_md} {
+      font-size: 25px !important;
+    }
+    @media #{$max_xs} {
+      font-size: 18px !important;
+    }
+  }
+}
+
+.heading-of-sections {
+  width: 500px;
+  @media #{$max_sm} {
+    width: 250px;
+  }
+  margin: auto;
+  .title {
+    color: $h_dark_color;
+  }
+  .description {
+    width: 100%;
+    margin: auto;
+    color: $p_light_color;
+  }
+}
+/* End Heading */

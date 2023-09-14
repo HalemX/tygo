@@ -1,0 +1,205 @@
+/* Start Dark Mode*/
+body.dark {
+  color: $basic_text_color !important;
+  background-color: $dark_color;
+  .navbar {
+    .navbar-toggler {
+      svg {
+        color: $basic_text_color;
+      }
+    }
+    .navbar-nav {
+      li {
+        a {
+          color: $basic_text_color !important;
+          &.active,
+          &:hover {
+            color: $h_dark_color !important;
+          }
+        }
+      }
+    }
+  }
+  .heading-of-landing-sec,
+  .heading-of-sections {
+    .title-of-heading,
+    .title,
+    .description {
+      color: $basic_text_color !important;
+    }
+  }
+  .bottom-sec-button {
+    .url-btn {
+      color: $basic_text_color;
+    }
+  }
+  .client-opinion {
+    .container {
+      border-bottom-color: $border_color;
+    }
+  }
+  .footer {
+    .heading,
+    .links li a {
+      color: $basic_text_color !important;
+    }
+    .links {
+      li {
+        a {
+          &.active {
+            color: $h_dark_color !important;
+          }
+        }
+      }
+    }
+  }
+  .landing-blog {
+    .first-row {
+      .left-box-of-first-row {
+        h3 {
+          color: $h_dark_color;
+        }
+        p {
+          color: $p_light_color;
+        }
+      }
+      .right-box-of-first-row {
+        box-shadow: none;
+        background-color: #2e2142 !important;
+        ul {
+          li {
+            color: $h_dark_color;
+          }
+        }
+      }
+    }
+    .second-row {
+      .box-of-second-row {
+        background-color: #2e2142 !important;
+        box-shadow: none;
+      }
+    }
+  }
+  .categories {
+    .row {
+      .info {
+        p {
+          color: $basic_text_color !important;
+        }
+      }
+    }
+  }
+  .connect {
+    p {
+      color: $basic_text_color !important;
+    }
+  }
+  .pactages {
+    .sidebar {
+      .box {
+        .intro {
+          svg {
+            color: $basic_text_color !important;
+          }
+        }
+        ul {
+          label {
+            color: $basic_text_color !important;
+          }
+          input {
+            accent-color: $communication_sec;
+          }
+        }
+        .icon-form {
+          background-color: $communication_sec;
+        }
+      }
+    }
+    .main-content {
+      .content-of-col {
+        box-shadow: none;
+        background-color: #2e2142;
+        .duration {
+          p,
+          span {
+            color: $basic_text_color !important;
+          }
+        }
+        .inner-row {
+          span {
+            color: $basic_text_color !important;
+          }
+          .image-box-two {
+            background-color: #322449;
+          }
+        }
+        .inner-footer {
+          .image {
+            background-color: white;
+            @include prefix(border-radius, 20px, webkit moz mo o);
+          }
+        }
+      }
+    }
+    .full-content {
+      .heading {
+        .image-box {
+          .img-first {
+            background-color: $communication_sec;
+          }
+          .img-second {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+  .complete-pactage {
+    .left-box,
+    .right-box {
+      .content-of-col {
+        box-shadow: none;
+        background-color: #2e1c4a;
+        span {
+          color: $basic_text_color !important;
+        }
+      }
+      background-color: #2e2142;
+      ul {
+        li {
+          p {
+            color: $basic_text_color !important;
+          }
+        }
+      }
+    }
+  }
+  .join {
+    .btn {
+      background-color: #2e1c4a !important;
+    }
+    .first-input {
+      .input-icons,
+      .reason-content {
+        select {
+          color: $basic_text_color !important;
+          option {
+            color: #ccc !important;
+          }
+        }
+        box-shadow: none;
+        background-color: #2e1c4a !important;
+        svg {
+          color: $basic_text_color !important;
+        }
+        input {
+          color: $basic_text_color !important;
+          &::placeholder {
+            color: $basic_text_color !important;
+          }
+        }
+      }
+    }
+  }
+}
+/* End Dark Mode*/

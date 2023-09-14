@@ -1,0 +1,13 @@
+/* Start Global Rules*/
+* {
+  @include prefix(box-sizing, borer-box, webkit moz);
+}
+
+body {
+  background-color: $light_body_color;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  @include prefix(transition, 0.3s, webkit moz o ms);
+}
+/* End Global Rules*/

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join</title>
+    <!-- Normalize.css makes browsers render all elements more consistently -->
+    <link rel="stylesheet" href="../vendor/normalize.css" />
+    <!-- Bootstrap Min File -->
+    <link rel="stylesheet" href="../vendor/bootstrap/bootstrap.min.css" />
+    <!-- Fontawesome Library -->
+    <link rel="stylesheet" href="../vendor/fontawesome/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+    />
+    <!-- Main CSS  Style -->
+    <link rel="stylesheet" href="../css/join/join.css" />
+  </head>
+
+  <body>
+    <div class="holder overflow-hidden">
+      <!-- Start Navbar -->
+      <nav class="navbar navbar-expand-lg bg-red mt-4">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="../imgs/logo.svg" alt="" />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item ms-lg-4">
+                <a
+                  class="nav-link p-lg-0"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link p-lg-0" href="./pactage.html">Packages</a>
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link p-lg-0" href="./ourservices.html"
+                  >Our services</a
+                >
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link p-lg-0" href="./aboutus.html">About us</a>
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link p-lg-0" href="./blogs.html">Blog</a>
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link p-lg-0 active" href="./join.html">Join</a>
+              </li>
+            </ul>
+
+            <form class="d-flex align-items-center">
+              <input
+                class="darkmode-switcher"
+                type="checkbox"
+                id="darkmode-toggle"
+              />
+              <label
+                class="darkmode-switcher-label position-relative ms-lg-5"
+                for="darkmode-toggle"
+              >
+              </label>
+
+              <p class="mb-0 ms-4">العربية</p>
+
+              <button
+                class="btn rounded-pill text-light px-3 login ms-3"
+                type="submit"
+              >
+                <i class="fa-regular fa-user pe-1"></i>
+                Log in
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+
+      <!-- Start Join -->
+      <div class="join pt-5 pb-5 m-auto position-relative">
+        <div class="before-three position-absolute">
+          <img class="img-fluid" src="../imgs/landing-04.png" alt="" />
+        </div>
+
+        <div class="before-four position-absolute">
+          <img class="img-fluid" src="../imgs/landing-03.png" alt="" />
+        </div>
+
+        <div class="before-five position-absolute">
+          <img class="img-fluid" src="../imgs/blogsec-09.png" alt="" />
+        </div>
+
+        <div class="container position-relative">
+          <div class="before-one position-absolute">
+            <img class="img-fluid" src="../imgs/join-01.png" alt="" />
+          </div>
+
+          <div class="before-two position-absolute">
+            <img class="img-fluid" src="../imgs/aboutus-03.png" alt="" />
+          </div>
+
+          <div class="heading mb-5">
+            <h1>Join the waitlist</h1>
+          </div>
+
+          <form>
+            <div class="first-input position-relative mb-4">
+              <label class="d-block ms-4 mb-2" for="first">Name</label>
+              <div class="input-icons w-100 bg-white rounded-pill px-4 py-3">
+                <i class="fa-regular fa-user text-black-50"></i>
+                <input
+                  class="fs-5"
+                  type="text"
+                  id="first"
+                  placeholder="Your Name*"
+                />
+              </div>
+            </div>
+
+            <div class="first-input position-relative mb-4">
+              <label class="d-block ms-4 mb-2" for="second">Email</label>
+              <div class="input-icons w-100 bg-white rounded-pill px-4 py-3">
+                <i class="fa-regular fa-envelope text-black-50"></i>
+                <input
+                  class="fs-5"
+                  type="email"
+                  id="second"
+                  placeholder="Your Email*"
+                />
+              </div>
+            </div>
+
+            <div class="first-input position-relative mb-4">
+              <label class="d-block ms-4 mb-2" for="thired">phone number</label>
+              <div class="input-icons w-100 bg-white rounded-pill px-4 py-3">
+                <i class="fa-solid fa-mobile-screen-button text-black-50"></i>
+                <input
+                  class="fs-5"
+                  type="email"
+                  id="thired"
+                  placeholder="Enter Phone Number"
+                />
+              </div>
+            </div>
+
+            <div class="first-input position-relative mb-4">
+              <label class="d-block ms-4 mb-2" for="validationCustom04"
+                >Nationality</label
+              >
+              <div
+                class="input-icons w-100 bg-white rounded-pill px-4 py-3 d-flex align-items-center"
+              >
+                <select class="form-select" id="validationCustom04" required>
+                  <option selected disabled>Choose...</option>
+                  <option>Egypt</option>
+                  <option>Saudi</option>
+                </select>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+            </div>
+
+            <div class="first-input position-relative mb-4">
+              <label class="d-block ms-4 mb-2">reasons of interest </label>
+              <div class="row">
+                <div class="reason col-lg-6 mb-3">
+                  <div
+                    class="reason-content bg-white rounded-pill p-3 text-start text-md-center"
+                  >
+                    more Services
+                  </div>
+                </div>
+                <div class="reason col-lg-6 mb-3">
+                  <div
+                    class="reason-content bg-white rounded-pill p-3 text-start text-md-center"
+                  >
+                    See Cheaper Prices
+                  </div>
+                </div>
+                <div class="reason col-lg-6 mb-3">
+                  <div
+                    class="reason-content bg-white rounded-pill p-3 text-start text-md-center"
+                  >
+                    more Services
+                  </div>
+                </div>
+                <div class="reason col-lg-6 mb-3">
+                  <div
+                    class="reason-content bg-white rounded-pill p-3 text-start text-md-center"
+                  >
+                    See Cheaper Prices
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn w-100 rounded-pill py-3" type="button">
+              Sent
+            </button>
+          </form>
+        </div>
+      </div>
+      <!-- End Join -->
+
+      <!-- Start Footer -->
+      <div class="footer text-center pt-5 pb-5">
+        <div class="container pt-5">
+          <div class="row holder">
+            <div class="col-lg-4 left-box">
+              <h5 class="heading text-md-start mb-4 px-2 w-75 fw-bold">
+                Subscribe to our newsletter :
+              </h5>
+
+              <div class="input-group rounded-pill bg-white px-2 py-2 mb-5">
+                <input
+                  type="email"
+                  class="form-control border-0 rounded-pill"
+                  placeholder="Email@yourmail.com"
+                />
+                <button class="btn rounded-pill text-light px-4">Submit</button>
+              </div>
+
+              <p class="text-md-start p-2">Terms | Privacy</p>
+            </div>
+
+            <div class="col-lg-8 right-box text-center">
+              <ul class="links list-unstyled mb-2 mt-4 mb-lg-0 d-flex">
+                <li class="ms-4">
+                  <a
+                    class="nav-link p-lg-0 text-black-50"
+                    aria-current="page"
+                    href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="ms-4">
+                  <a class="nav-link p-lg-0 text-black-50" href="./aboutus.html"
+                    >About Us</a
+                  >
+                </li>
+                <li class="ms-4">
+                  <a class="nav-link p-lg-0 text-black-50" href="./pactage.html"
+                    >Pactages</a
+                  >
+                </li>
+                <li class="ms-4">
+                  <a class="nav-link p-lg-0 text-black-50" href="./blogs.html"
+                    >Blog</a
+                  >
+                </li>
+                <li class="ms-4">
+                  <a
+                    class="nav-link p-lg-0 text-black-50"
+                    href="./ourservices.html"
+                    >Our Services</a
+                  >
+                </li>
+                <li class="nav-item ms-lg-4">
+                  <a class="nav-link p-lg-0 active" href="./join.html">Join</a>
+                </li>
+              </ul>
+
+              <ul class="icons text-lg-end text-md-start mt-1 mt-lg-5 fs-4">
+                <span class="fs-5">Follow Us:</span>
+                <i class="fa-brands fa-facebook mt-md-5"></i>
+                <i class="fa-brands fa-instagram mt-md-5"></i>
+                <i class="fa-brands fa-linkedin mt-md-5"></i>
+                <i class="fa-brands fa-google-plus-g mt-md-5"></i>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Footer -->
+    </div>
+
+    <!-- Bootstrap min file -->
+    <script src="../vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- Fontawesome Library Make Icon As SVG -->
+    <script src="../vendor/fontawesome/all.min.js"></script>
+    <!-- Main JS Style -->
+    <script src="../js/main.js"></script>
+  </body>
+</html>

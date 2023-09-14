@@ -1,0 +1,17 @@
+/* Start Bottom Btn*/
+.bottom-sec-button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid $border_color;
+  width: fit-content;
+  margin: auto;
+  cursor: pointer;
+  .url-btn {
+    &:focus {
+      border: none;
+    }
+  }
+  svg {
+    font-size: 20px;
+  }
+}
+/* End Bottom Btn*/

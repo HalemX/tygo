@@ -1,0 +1,182 @@
+/* Start About Us*/
+.about-us {
+  .first-row {
+    .right-box {
+      .after-img {
+        bottom: 20px;
+        right: -40px;
+        img {
+          width: 65%;
+        }
+      }
+    }
+    .before-one {
+      left: -700px;
+      top: -500px;
+      z-index: -999;
+    }
+  }
+  .second-row {
+    background-color: $yellow;
+    margin: 10px 200px 10px auto;
+    &.special {
+      margin: 10px 0px 10px auto;
+      background-color: $main_color;
+      color: $basic_text_color;
+      @media #{$min_md} {
+        margin: 10px auto 10px 50px;
+      }
+    }
+    flex-direction: column;
+    @media #{$min_md} {
+      width: 40%;
+    }
+    @media #{$max_md} {
+      width: 70%;
+      height: 300px;
+    }
+    h2,
+    p {
+      @media #{$max_lg} {
+        padding: 0 10px !important;
+      }
+    }
+    p {
+      @media #{$max_xs} {
+        font-size: 15px !important;
+      }
+    }
+    .img-after {
+      left: -120px;
+      img {
+        @media #{$max_xs} {
+          width: 60% !important;
+        }
+      }
+      &.two {
+        background-color: $purple;
+        padding: 20px 30px;
+        bottom: -100px;
+        left: 70px;
+        @media #{$max_md} {
+          left: -10px;
+        }
+        @media #{$max_sm} {
+          left: -60px;
+          padding: 15px 25px;
+        }
+        img {
+          width: 20px;
+          height: 40px;
+        }
+      }
+    }
+  }
+  .img-after-one {
+    @media #{$min_md} {
+      width: 280px;
+      background-color: $main_color;
+      flex-wrap: wrap;
+      margin-top: auto;
+      margin-bottom: 10px;
+      padding: 20px;
+      display: flex !important;
+      img {
+        @media #{$min_md} {
+          width: 45px;
+          height: 45px;
+          margin-right: 5px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+    img {
+      @media #{$min_md} {
+        display: block;
+      }
+      display: none;
+    }
+    display: none !important;
+  }
+  .third-row {
+    .left-box {
+      .before-three {
+        top: -400px;
+        left: -300px;
+        z-index: -999;
+      }
+      .heading-of-box {
+        flex-direction: column;
+        .big-head {
+          @media #{$min_lg} {
+            font-size: 40px;
+          }
+          font-size: 30px;
+        }
+        .img-after-three {
+          flex-direction: column;
+          background-color: $yellow;
+          width: 80px;
+          img {
+            width: 35px;
+          }
+        }
+      }
+      .content-of-box {
+        padding: 130px;
+        background-color: $pink;
+        color: $basic_text_color;
+        flex-direction: column;
+        @media #{$max_xs} {
+          padding-left: 20px !important ;
+          padding-right: 20px !important ;
+        }
+        .private-btn {
+          background-color: $yellow;
+          width: fit-content;
+          @media #{$max_md} {
+            margin: auto !important;
+          }
+          .btn {
+            &:focus {
+              border: none;
+            }
+          }
+        }
+      }
+    }
+    .right-box {
+      background-color: $communication_sec;
+      @media #{$max_xs} {
+        margin-top: 20px !important;
+        padding: 20px !important;
+      }
+      .first-box {
+        @media #{$max_xs} {
+          padding: 0 !important;
+          margin-bottom: 20px;
+        }
+        .intro {
+          @media #{$max_md} {
+            justify-content: center;
+          }
+          h3 {
+            color: $basic_text_color;
+          }
+        }
+        img {
+          width: 30px;
+        }
+      }
+      .image-after {
+        top: 70px;
+        left: -160px;
+        img {
+          width: 200px;
+        }
+      }
+    }
+  }
+}
+
+/* End About Us*/
